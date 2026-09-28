@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanje - Account & Data Deletion Request</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-color: #38bdf8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-top: 0;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 12px;
+        }
+
+        .developer-tag {
+            display: inline-block;
+            background-color: #0f172a;
+            color: var(--accent-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: var(--accent-color);
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #e2e8f0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-box {
+            background-color: #0f172a;
+            padding: 16px 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+            margin-top: 16px;
+        }
+
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Account & Data Deletion Request</h1>
+        <div class="developer-tag">App: Kanje | Developer: SHODENN</div>
+
+        <p>If you have created an account in <strong>Kanje</strong> using Google Sign-In and wish to request the deletion of your account and associated data, please follow the options below.</p>
+
+        <h2>How to Delete Your Account and Associated Data</h2>
+        
+        <ol>
+            <li>
+                <strong>Automatic Local Data Removal:</strong> Uninstalling the Kanje application from your Android device immediately deletes all local app data, study history, and SRS progress stored on your device.
+            </li>
+            <li>
+                <strong>Google Drive Cloud Backup Deletion:</strong>
+                <ul>
+                    <li>You can directly delete your cloud backup file (<code>kanje_backup.json</code>) by going to your Google Drive on the web &gt; <strong>Settings (gear icon) &gt; Manage Apps &gt; Kanje &gt; Options &gt; Delete hidden app data</strong>.</li>
+                    <li>Alternatively, send a request to us to handle this process (see below).</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Revoke App Access:</strong> You can revoke Kanje's permissions from your Google Account at any time by visiting <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Third-Party Access Settings</a>.
+            </li>
+        </ol>
+
+        <h2>Submit Deletion Request via Email</h2>
+        <p>If you prefer us to assist you in deleting your account and backup data from our records, send an email to:</p>
+
+        <div class="contact-box">
+            <!-- Replace with your actual support email address -->
+            <strong>Email:</strong> <a href="mailto:support@shodenn.com?subject=Kanje%20Account%20Deletion%20Request">support@shodenn.com</a><br>
+            <strong>Subject:</strong> Kanje Account Deletion Request<br>
+            <strong>Include:</strong> The Google email address used when signing into Kanje.
+        </div>
+
+        <h2>Data Handling & Retention Policy</h2>
+        <ul>
+            <li><strong>Data Deleted:</strong> Your Google User Account ID, email address, SRS study progress, lesson history, and Google Drive cloud backups.</li>
+            <li><strong>Data Retained:</strong> Anonymous Google Play purchase/transaction records are retained as required by financial law and managed directly by Google Play.</li>
+            <li><strong>Retention Period:</strong> Manual email deletion requests are fulfilled within 14 business days.</li>
+        </ul>
+
+        <footer>
+            &copy; 2026 SHODENN. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
